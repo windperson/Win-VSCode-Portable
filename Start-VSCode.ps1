@@ -3,4 +3,6 @@ $env:USERPROFILE = "$PSScriptRoot\hold_user_profile"
 
 $env:CUSTOM_POWERSHELL_PROFILE = "$PSScriptRoot\hold_user_profile\PowerShell_profile.ps1"
 
+ Set-Location -Path $env:USERPROFILE
+
 & "$PSScriptRoot\vscode_zip\Code.exe"
