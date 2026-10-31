@@ -1,0 +1,8 @@
+data/*
+!data/.gitkeep
+!data/TMP/.gitkeep
+!data/user-data/User/settings.json
+hold_user_profile/*
+!hold_user_profile/.gitkeep
+vscode_zip/*
+!vscode_zip/.gitkeep
