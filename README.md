@@ -23,6 +23,13 @@ Then you can use the profile ps1 file ***hold_user_profile/PowerShell_profile.ps
    ```powershell
    New-Item -ItemType SymbolicLink -Path .\data -Target ..\data
    ```
+
+     ```text
+     repository\
+     ├── data\
+     └── vscode_zip\
+       └── data -> ..\data  (symbolic link to repository\data)
+     ```
    
 3. Run the `Start-VSCode.ps1` to start Visual Studio Code:
    
@@ -32,4 +39,4 @@ Then you can use the profile ps1 file ***hold_user_profile/PowerShell_profile.ps
 
 ## Create Windows Shourtcut on Desktop
 
-You can run the `Create-Windows-Shourtcut.ps1` PowerShell script to automatically create Windows Desktip shortcut for easier accesss.
+You can run the `Create-Windows-Shourtcut.ps1` PowerShell script to automatically create Windows Desktip shortcut for easier access.
